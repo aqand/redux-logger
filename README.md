@@ -80,7 +80,8 @@ Note: logger **must be** the last middleware in chain, otherwise it will log thu
   logErrors = true: Boolean, // should the logger catch, log, and re-throw errors?
 
   diff = false: Boolean, // (alpha) show diff between states?
-  diffPredicate // (alpha) filter function for showing states diff, similar to `predicate`
+  diffPredicate, // (alpha) filter function for showing states diff, similar to `predicate`
+  actionsBlackList // a list of actions that will not get logged
 }
 ```
 
