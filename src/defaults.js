@@ -21,4 +21,5 @@ export default {
 
   // Deprecated options
   transformer: undefined,
+  actionsBlackList: [],
 };
