@@ -19,7 +19,8 @@
   "eslintConfig": {
     "extends": "airbnb",
     "rules": {
-      "no-console": "off"
+      "no-console": "off",
+      "linebreak-style": ["error", "windows"]
     },
     "env": {
       "browser": true,
@@ -43,7 +44,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theaqua/redux-logger.git"
+    "url": "git+https://github.com/aqand/redux-logger.git"
   },
   "keywords": [
     "redux",
